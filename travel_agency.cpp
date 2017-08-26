@@ -134,13 +134,13 @@ case 1:
 	switch(ch_1)
 	{
 		case 1:
-			
+			cout<<"\nDeparure on 15th september at 11 pm from CMBT\n";
 			b11.get_data();
 			b11.print();
 			b11.display_personal_details();
 			break;
-		case 2:
-		
+		case 2:	
+			cout<<"\nDeparure on 10th september at 11.30 pm from CMBT\n";
 			b12.get_data();
 			b12.print();
 			b12.display_personal_details();
@@ -161,12 +161,14 @@ case 2:
    	switch(ch_2)
    	{
    	case 1:
+		cout<<"\nDeparure on 15th october at 10 pm from Chennai Airport\n";
    		f1.get_data();
    		f1.display();
    		f1.display_personal_details();
    		break;
    	case 2:
-	    f2.get_data();
+		cout<<"\nDeparure on 1st november at 4 am from Chennai Airport\n";
+	        f2.get_data();
 		f2.display();
 		f2.display_personal_details();
 		break;
@@ -178,4 +180,3 @@ case 2:
 }
 return 0;
 }
-
