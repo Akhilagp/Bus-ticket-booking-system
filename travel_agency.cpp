@@ -29,7 +29,7 @@ class travel
 		}
 		int getAge()
 		{
-			cout<<'\n'<<age<<endl;
+			//cout<<'\n'<<age<<endl;
 			return age;
 		}
 };
